@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952ADC7F2EDEC23D002726F8 /* TopicsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952ADC7E2EDEC23D002726F8 /* TopicsListViewModel.swift */; };
+		956BC2842EDE99C300DEA0CA /* StudyTrackerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BC2832EDE99C300DEA0CA /* StudyTrackerAppApp.swift */; };
+		956BC2882EDE99C500DEA0CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956BC2872EDE99C500DEA0CA /* Assets.xcassets */; };
+		956BC28B2EDE99C500DEA0CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956BC28A2EDE99C500DEA0CA /* Preview Assets.xcassets */; };
+		958A15D42EDE9FCD007049CB /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15D32EDE9FCD007049CB /* PersistenceController.swift */; };
+		958A15D72EDEA034007049CB /* Topic+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15D62EDEA034007049CB /* Topic+CoreDataClass.swift */; };
+		958A15D92EDEA049007049CB /* Topic+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15D82EDEA049007049CB /* Topic+CoreDataProperties.swift */; };
+		958A15DB2EDEA05B007049CB /* LogEvent+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15DA2EDEA05B007049CB /* LogEvent+CoreDataClass.swift */; };
+		958A15DD2EDEA06D007049CB /* LogEvent+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15DC2EDEA06D007049CB /* LogEvent+CoreDataProperties.swift */; };
+		958A15DF2EDEA07D007049CB /* UsageDay+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15DE2EDEA07D007049CB /* UsageDay+CoreDataClass.swift */; };
+		958A15E12EDEA090007049CB /* UsageDay+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15E02EDEA090007049CB /* UsageDay+CoreDataProperties.swift */; };
+		958A15E42EDEA0F7007049CB /* TopicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15E32EDEA0F7007049CB /* TopicViewModel.swift */; };
+		958A15E62EDEA109007049CB /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15E52EDEA109007049CB /* TimerViewModel.swift */; };
+		958A15E82EDEA119007049CB /* AnalyticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15E72EDEA119007049CB /* AnalyticsViewModel.swift */; };
+		958A15EB2EDEA14B007049CB /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15EA2EDEA14B007049CB /* DashboardView.swift */; };
+		958A15ED2EDEA1A9007049CB /* AddTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15EC2EDEA1A9007049CB /* AddTopicView.swift */; };
+		958A15EF2EDEA1CA007049CB /* TopicsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15EE2EDEA1CA007049CB /* TopicsListView.swift */; };
+		958A15F12EDEA1DB007049CB /* TopicRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15F02EDEA1DB007049CB /* TopicRowView.swift */; };
+		958A15F32EDEA1E9007049CB /* TopicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15F22EDEA1E9007049CB /* TopicDetailView.swift */; };
+		958A15F52EDEA1F8007049CB /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15F42EDEA1F8007049CB /* TimerView.swift */; };
+		958A15F72EDEA209007049CB /* CompletedTopicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15F62EDEA208007049CB /* CompletedTopicDetailView.swift */; };
+		958A15F92EDEA218007049CB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15F82EDEA218007049CB /* SettingsView.swift */; };
+		958A15FC2EDEA243007049CB /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15FB2EDEA243007049CB /* TimeFormatter.swift */; };
+		958A15FE2EDEA252007049CB /* AnalyticsHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A15FD2EDEA252007049CB /* AnalyticsHelpers.swift */; };
+		958A16012EDEA3D4007049CB /* StudyTrackrModel .xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 958A15FF2EDEA3D4007049CB /* StudyTrackrModel .xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		952ADC7E2EDEC23D002726F8 /* TopicsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsListViewModel.swift; sourceTree = "<group>"; };
+		956BC2802EDE99C300DEA0CA /* StudyTrackr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyTrackr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		956BC2832EDE99C300DEA0CA /* StudyTrackerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTrackerAppApp.swift; sourceTree = "<group>"; };
+		956BC2872EDE99C500DEA0CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		956BC28A2EDE99C500DEA0CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		958A15D32EDE9FCD007049CB /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		958A15D62EDEA034007049CB /* Topic+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Topic+CoreDataClass.swift"; sourceTree = "<group>"; };
+		958A15D82EDEA049007049CB /* Topic+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Topic+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		958A15DA2EDEA05B007049CB /* LogEvent+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogEvent+CoreDataClass.swift"; sourceTree = "<group>"; };
+		958A15DC2EDEA06D007049CB /* LogEvent+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogEvent+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		958A15DE2EDEA07D007049CB /* UsageDay+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UsageDay+CoreDataClass.swift"; sourceTree = "<group>"; };
+		958A15E02EDEA090007049CB /* UsageDay+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UsageDay+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		958A15E32EDEA0F7007049CB /* TopicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicViewModel.swift; sourceTree = "<group>"; };
+		958A15E52EDEA109007049CB /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		958A15E72EDEA119007049CB /* AnalyticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsViewModel.swift; sourceTree = "<group>"; };
+		958A15EA2EDEA14B007049CB /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		958A15EC2EDEA1A9007049CB /* AddTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTopicView.swift; sourceTree = "<group>"; };
+		958A15EE2EDEA1CA007049CB /* TopicsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsListView.swift; sourceTree = "<group>"; };
+		958A15F02EDEA1DB007049CB /* TopicRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicRowView.swift; sourceTree = "<group>"; };
+		958A15F22EDEA1E9007049CB /* TopicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicDetailView.swift; sourceTree = "<group>"; };
+		958A15F42EDEA1F8007049CB /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		958A15F62EDEA208007049CB /* CompletedTopicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedTopicDetailView.swift; sourceTree = "<group>"; };
+		958A15F82EDEA218007049CB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		958A15FB2EDEA243007049CB /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatter.swift; sourceTree = "<group>"; };
+		958A15FD2EDEA252007049CB /* AnalyticsHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsHelpers.swift; sourceTree = "<group>"; };
+		958A16002EDEA3D4007049CB /* StudyTrackrModel .xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "StudyTrackrModel .xcdatamodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		956BC27D2EDE99C300DEA0CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		956BC2772EDE99C300DEA0CA = {
+			isa = PBXGroup;
+			children = (
+				956BC2822EDE99C300DEA0CA /* StudyTrackerApp */,
+				956BC2812EDE99C300DEA0CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		956BC2812EDE99C300DEA0CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				956BC2802EDE99C300DEA0CA /* StudyTrackr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		956BC2822EDE99C300DEA0CA /* StudyTrackerApp */ = {
+			isa = PBXGroup;
+			children = (
+				958A15FF2EDEA3D4007049CB /* StudyTrackrModel .xcdatamodeld */,
+				958A15FA2EDEA22C007049CB /* Utilities */,
+				958A15E92EDEA134007049CB /* Views */,
+				958A15E22EDEA0D9007049CB /* ViewModels */,
+				958A15D52EDEA019007049CB /* Model */,
+				956BC2832EDE99C300DEA0CA /* StudyTrackerAppApp.swift */,
+				956BC2872EDE99C500DEA0CA /* Assets.xcassets */,
+				956BC2892EDE99C500DEA0CA /* Preview Content */,
+				958A15D32EDE9FCD007049CB /* PersistenceController.swift */,
+			);
+			path = StudyTrackerApp;
+			sourceTree = "<group>";
+		};
+		956BC2892EDE99C500DEA0CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				956BC28A2EDE99C500DEA0CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		958A15D52EDEA019007049CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				958A15D62EDEA034007049CB /* Topic+CoreDataClass.swift */,
+				958A15D82EDEA049007049CB /* Topic+CoreDataProperties.swift */,
+				958A15DA2EDEA05B007049CB /* LogEvent+CoreDataClass.swift */,
+				958A15DC2EDEA06D007049CB /* LogEvent+CoreDataProperties.swift */,
+				958A15DE2EDEA07D007049CB /* UsageDay+CoreDataClass.swift */,
+				958A15E02EDEA090007049CB /* UsageDay+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		958A15E22EDEA0D9007049CB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				958A15E32EDEA0F7007049CB /* TopicViewModel.swift */,
+				958A15E52EDEA109007049CB /* TimerViewModel.swift */,
+				958A15E72EDEA119007049CB /* AnalyticsViewModel.swift */,
+				952ADC7E2EDEC23D002726F8 /* TopicsListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		958A15E92EDEA134007049CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				958A15EA2EDEA14B007049CB /* DashboardView.swift */,
+				958A15EC2EDEA1A9007049CB /* AddTopicView.swift */,
+				958A15EE2EDEA1CA007049CB /* TopicsListView.swift */,
+				958A15F02EDEA1DB007049CB /* TopicRowView.swift */,
+				958A15F22EDEA1E9007049CB /* TopicDetailView.swift */,
+				958A15F42EDEA1F8007049CB /* TimerView.swift */,
+				958A15F62EDEA208007049CB /* CompletedTopicDetailView.swift */,
+				958A15F82EDEA218007049CB /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		958A15FA2EDEA22C007049CB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				958A15FB2EDEA243007049CB /* TimeFormatter.swift */,
+				958A15FD2EDEA252007049CB /* AnalyticsHelpers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		956BC27F2EDE99C300DEA0CA /* StudyTrackr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 956BC2932EDE99C500DEA0CA /* Build configuration list for PBXNativeTarget "StudyTrackr" */;
+			buildPhases = (
+				956BC27C2EDE99C300DEA0CA /* Sources */,
+				956BC27D2EDE99C300DEA0CA /* Frameworks */,
+				956BC27E2EDE99C300DEA0CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudyTrackr;
+			productName = StudyTrackerApp;
+			productReference = 956BC2802EDE99C300DEA0CA /* StudyTrackr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		956BC2782EDE99C300DEA0CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					956BC27F2EDE99C300DEA0CA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 956BC27B2EDE99C300DEA0CA /* Build configuration list for PBXProject "StudyTrackr" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 956BC2772EDE99C300DEA0CA;
+			productRefGroup = 956BC2812EDE99C300DEA0CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				956BC27F2EDE99C300DEA0CA /* StudyTrackr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		956BC27E2EDE99C300DEA0CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956BC28B2EDE99C500DEA0CA /* Preview Assets.xcassets in Resources */,
+				956BC2882EDE99C500DEA0CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		956BC27C2EDE99C300DEA0CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952ADC7F2EDEC23D002726F8 /* TopicsListViewModel.swift in Sources */,
+				958A15F92EDEA218007049CB /* SettingsView.swift in Sources */,
+				958A15D92EDEA049007049CB /* Topic+CoreDataProperties.swift in Sources */,
+				958A15ED2EDEA1A9007049CB /* AddTopicView.swift in Sources */,
+				958A15EB2EDEA14B007049CB /* DashboardView.swift in Sources */,
+				958A15DF2EDEA07D007049CB /* UsageDay+CoreDataClass.swift in Sources */,
+				958A15E62EDEA109007049CB /* TimerViewModel.swift in Sources */,
+				958A15FE2EDEA252007049CB /* AnalyticsHelpers.swift in Sources */,
+				958A15D72EDEA034007049CB /* Topic+CoreDataClass.swift in Sources */,
+				958A15EF2EDEA1CA007049CB /* TopicsListView.swift in Sources */,
+				958A15F32EDEA1E9007049CB /* TopicDetailView.swift in Sources */,
+				958A15F52EDEA1F8007049CB /* TimerView.swift in Sources */,
+				956BC2842EDE99C300DEA0CA /* StudyTrackerAppApp.swift in Sources */,
+				958A15F12EDEA1DB007049CB /* TopicRowView.swift in Sources */,
+				958A15E82EDEA119007049CB /* AnalyticsViewModel.swift in Sources */,
+				958A15DD2EDEA06D007049CB /* LogEvent+CoreDataProperties.swift in Sources */,
+				958A15E42EDEA0F7007049CB /* TopicViewModel.swift in Sources */,
+				958A15FC2EDEA243007049CB /* TimeFormatter.swift in Sources */,
+				958A15E12EDEA090007049CB /* UsageDay+CoreDataProperties.swift in Sources */,
+				958A15D42EDE9FCD007049CB /* PersistenceController.swift in Sources */,
+				958A15DB2EDEA05B007049CB /* LogEvent+CoreDataClass.swift in Sources */,
+				958A15F72EDEA209007049CB /* CompletedTopicDetailView.swift in Sources */,
+				958A16012EDEA3D4007049CB /* StudyTrackrModel .xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		956BC2912EDE99C500DEA0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		956BC2922EDE99C500DEA0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		956BC2942EDE99C500DEA0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudyTrackerApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StudyTrackerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		956BC2952EDE99C500DEA0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudyTrackerApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StudyTrackerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		956BC27B2EDE99C300DEA0CA /* Build configuration list for PBXProject "StudyTrackr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956BC2912EDE99C500DEA0CA /* Debug */,
+				956BC2922EDE99C500DEA0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		956BC2932EDE99C500DEA0CA /* Build configuration list for PBXNativeTarget "StudyTrackr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956BC2942EDE99C500DEA0CA /* Debug */,
+				956BC2952EDE99C500DEA0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		958A15FF2EDEA3D4007049CB /* StudyTrackrModel .xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				958A16002EDEA3D4007049CB /* StudyTrackrModel .xcdatamodel */,
+			);
+			currentVersion = 958A16002EDEA3D4007049CB /* StudyTrackrModel .xcdatamodel */;
+			path = "StudyTrackrModel .xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 956BC2782EDE99C300DEA0CA /* Project object */;
+}
