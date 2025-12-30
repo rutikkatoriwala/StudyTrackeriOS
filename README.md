@@ -1,3 +1,4 @@
+#StudyTracker
 <img width="100" height="500" alt="Simulator Screen Shot - iPhone 14 Pro - 2025-12-30 at 09 44 12" src="https://github.com/user-attachments/assets/a2a7890e-63e4-4137-86a3-8c52356cda89" />
 <img width="100" height="500" alt="Simulator Screen Shot - iPhone 14 Pro - 2025-12-30 at 09 46 09" src="https://github.com/user-attachments/assets/99b39d85-fa66-4ee7-92e0-3d3eda7817f4" />
 <img width="100" height="500" alt="Simulator Screen Shot - iPhone 14 Pro - 2025-12-30 at 09 46 44" src="https://github.com/user-attachments/assets/79a3067b-9625-4a1c-9d6e-6a2815aea2cf" />
